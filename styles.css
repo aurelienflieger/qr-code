@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 :root {
-    --spacing-500: 40px;
-    --spacing-300: 24px;
-    --spacing-200: 16px;
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
 }
 .app-background {
   background-color: #d5e1ef;
@@ -21,10 +21,12 @@
   padding: var(--spacing-200);
   width: 50%;
   display: flex;
+  min-height: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 400px;
+  min-width: 200px;
 }
 
 .call-to-action__qr-code {
@@ -35,10 +37,10 @@
 }
 
 .call-to-action__divider {
-    display: flex;
-    flex-direction: column;
-    padding: var(--spacing-300), var(--spacing-200);
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-300), var(--spacing-200);
+  text-align: center;
 }
 
 .call-to-action__title {
